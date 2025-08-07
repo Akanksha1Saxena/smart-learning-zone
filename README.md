@@ -38,4 +38,4 @@ This project demonstrates how to deploy a **secure, scalable static website** on
 
 ## 📖 Full Deployment Guide
 For the **complete step-by-step process with screenshots**, see the PDF:  
-[📄 Open Deployment Guide](Deployment_docs/deployment_steps.pdf)
+[📄 Open Deployment Guide](Deployment_docs/Deployment_steps.pdf)
