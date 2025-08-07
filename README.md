@@ -15,7 +15,7 @@ This project demonstrates how to deploy a **secure, scalable static website** on
 ---
 
 ## 🏗 Architecture
-![Architecture Diagram](Website/assets/architecture.png) 
+![Architecture Diagram](Website/assets/architecture.png)
 
 **AWS Services Used:**
 - **Amazon S3**: Secure object storage for static website files  
