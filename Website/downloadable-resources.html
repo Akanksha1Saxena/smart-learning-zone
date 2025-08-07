@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloadable Resources</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #ff9800;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .tagline {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .resources-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .resource-card:hover {
+            transform: scale(1.05);
+        }
+        .resource-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .resource-content {
+            padding: 15px;
+        }
+        .resource-title {
+            font-size: 20px;
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .resource-desc {
+            font-size: 14px;
+            color: #666;
+            margin: 0 0 15px;
+        }
+        .download-button {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .download-button:hover {
+            background: #e57c00;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Downloadable Resources</h1>
+        <p class="tagline">Access valuable guides, cheat sheets, and more for your learning journey.</p>
+    </div>
+
+    <div class="resources-container">
+        <!-- Resource 1 -->
+        <div class="resource-card">
+            <img src="assets/AWS-Cheat-Sheets-1.png" alt="AWS Basics Cheat Sheet" class="resource-image">
+            <div class="resource-content">
+                <h3 class="resource-title">AWS Basics Cheat Sheet</h3>
+                <p class="resource-desc">Quick reference for AWS commands and workflows.</p>
+                <a href="https://my-static-website-web-learn.s3.us-east-1.amazonaws.com/ec2-ug.pdf" class="download-button" download>Download</a>
+            </div>
+        </div>
+
+        <!-- Resource 2 -->
+        <div class="resource-card">
+            <img src="assets/security.jpg" alt="Cloud Security Guide" class="resource-image">
+            <div class="resource-content">
+                <h3 class="resource-title">Cloud Security Guide</h3>
+                <p class="resource-desc">Best practices for securing your cloud environment.</p>
+                <a href="https://your-cloudfront-url/cloud-security.pdf" class="download-button" download>Download</a>
+            </div>
+        </div>
+
+        <!-- Resource 3 -->
+        <div class="resource-card">
+            <img src="assets/s3.png" alt="Static Website Hosting Guide" class="resource-image">
+            <div class="resource-content">
+                <h3 class="resource-title">Static Website Hosting Guide</h3>
+                <p class="resource-desc">Step-by-step guide to hosting a static website on AWS.</p>
+                <a href="https://your-cloudfront-url/static-website-hosting.pdf" class="download-button" download>Download</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Smart Learning Zone. All rights reserved.</p>
+    </div>
+</body>
+</html>

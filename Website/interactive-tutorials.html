@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Tutorials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        .header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video-card {
+            flex: 1 1 calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+        .video-card iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Interactive Tutorials</h1>
+        <p>Learn through videos categorized by courses: AWS Basics, Cloud Security, and Static Website Hosting.</p>
+    </div>
+
+    <!-- AWS Basics Section -->
+<div class="section">
+    <h2>AWS Basics</h2>
+    <div class="video-container">
+        <!-- Video 1 -->
+        <div class="video-card">
+            <video controls width="100%" poster="https://d2hyz5nqdfakql.cloudfront.net/assets/thumbnails3.jpg">
+                <source src="https://d2hyz5nqdfakql.cloudfront.net/assets/Shadows+and+Light+News+Activity+Educational+Video+in+Yellow+Blue+Illustrative+Style.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Introduction to S3</p>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-card">
+            <video controls width="100%" poster="https://d2hyz5nqdfakql.cloudfront.net/assets/thumbnailEc2.jpg">
+                <source src="https://d2hyz5nqdfakql.cloudfront.net/EC2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Introduction to EC2</p>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Cloud Security Section -->
+    <div class="section">
+        <h2>Cloud Security</h2>
+        <p>Learn to secure your cloud environment using AWS IAM, encryption, and monitoring tools.</p>
+        <div class="video-container">
+            <div class="video-card">
+            <video controls width="100%" poster="https://d2hyz5nqdfakql.cloudfront.net/assets/Psychology+Class.jpg">
+                <source src="https://d2hyz5nqdfakql.cloudfront.net/assets/Psychology Class.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+                <p>Introduction to IAM Roles</p>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/KZz5utw3WB4" allowfullscreen></iframe>
+                <p>Using AWS GuardDuty for Threat Detection</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Static Website Hosting Section -->
+    <div class="section">
+        <h2>Static Website Hosting</h2>
+        <p>Host and optimize static websites using AWS S3 and CloudFront.</p>
+        <div class="video-container">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/y7Ur3B3AuXU" allowfullscreen></iframe>
+                <p>Hosting a Static Website on S3</p>
+            </div>
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/EnAd-0QJQj4" allowfullscreen></iframe>
+                <p>Configuring CloudFront for a Static Website</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Smart Learning Zone</p>
+    </div>
+</body>
+</html>
